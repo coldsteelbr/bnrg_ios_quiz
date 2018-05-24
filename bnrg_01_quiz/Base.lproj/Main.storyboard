@@ -52,13 +52,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="YaG-FZ-xG6" firstAttribute="centerX" secondItem="38J-Ja-kxM" secondAttribute="centerX" id="0eA-rU-VOA"/>
+                            <constraint firstItem="38J-Ja-kxM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5EV-6h-yUm"/>
                             <constraint firstItem="Ckz-Zk-Mzu" firstAttribute="centerX" secondItem="38J-Ja-kxM" secondAttribute="centerX" id="EHO-4L-Cn4"/>
                             <constraint firstItem="2Pt-FW-XmC" firstAttribute="centerX" secondItem="38J-Ja-kxM" secondAttribute="centerX" id="Fye-Wf-kvZ"/>
+                            <constraint firstItem="m2m-M7-m06" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GbB-cw-4io"/>
                             <constraint firstItem="YaG-FZ-xG6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="87" id="Hp1-Sk-hxi"/>
                             <constraint firstItem="m2m-M7-m06" firstAttribute="top" secondItem="YaG-FZ-xG6" secondAttribute="top" id="bLD-T0-avD"/>
-                            <constraint firstItem="YaG-FZ-xG6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="87" id="c4w-7l-iKn"/>
-                            <constraint firstItem="38J-Ja-kxM" firstAttribute="top" secondItem="YaG-FZ-xG6" secondAttribute="bottom" constant="8" id="fOf-aO-Aqm"/>
+                            <constraint firstItem="38J-Ja-kxM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="116" id="hLh-dL-D7d"/>
                             <constraint firstItem="2Pt-FW-XmC" firstAttribute="top" secondItem="38J-Ja-kxM" secondAttribute="bottom" constant="87" id="i6S-MK-M1b"/>
                             <constraint firstItem="YaG-FZ-xG6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ifu-WZ-eXH"/>
                             <constraint firstItem="m2m-M7-m06" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="iw0-oY-UD8"/>
@@ -69,7 +69,9 @@
                     <connections>
                         <outlet property="answerLabel" destination="2Pt-FW-XmC" id="3Ui-QV-mQN"/>
                         <outlet property="currentQuestionLabel" destination="YaG-FZ-xG6" id="ouY-p2-D0F"/>
+                        <outlet property="currentQuestionLabelCenterXConstraint" destination="ifu-WZ-eXH" id="Htg-2e-YVU"/>
                         <outlet property="nextQuestionLabel" destination="m2m-M7-m06" id="6YU-O0-PjQ"/>
+                        <outlet property="nextQuestionLabelCenterXConstraint" destination="iw0-oY-UD8" id="xQ1-S9-P1e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
